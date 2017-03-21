@@ -1,7 +1,7 @@
 ##
 #  Demonstrate the Message class.
 #
-from BryceDesbrisayLab8.py import Message
+from BryceDesbrisayLab8 import Message
 
 # Create the message.
 wishList = Message("Bob", "Santa")
