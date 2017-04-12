@@ -1,0 +1,12 @@
+# CIS 117 Python Programming - Lab 9
+# Bryce DesBrisay
+import tkinter
+
+class myGUI:
+    def __init__(self):
+        self.root = tkinter.Tk()
+        self.text = Label(master = self.root, text = 'Bryce DesBrisay')
+        self.text.pack()
+        tkinter.mainloop()
+
+GUI = myGUI
